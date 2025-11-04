@@ -4,15 +4,16 @@
 all in a while loop
 
 
-    1.
+    1. DONE (refer to Hanna)
     Generate a four number combination:
     random 1-6 and include them too.
         One with no repeating
         one that can be repeating
 
-    2. 
+    2. Gustaf wip
     start:
     Welcome message
+    mode
 
     in a loop: 12 rundor
         3. 
@@ -43,7 +44,7 @@ all in a while loop
     ending message
     if stay
         while lop still true
-    if eexit
+    if exit
         while loop ends
 
         Goodbye message
