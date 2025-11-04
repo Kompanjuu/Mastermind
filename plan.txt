@@ -1,0 +1,52 @@
+
+
+
+all in a while loop
+
+
+    1.
+    Generate a four number combination:
+    random 1-6 and include them too.
+        One with no repeating
+        one that can be repeating
+
+    2. 
+    start:
+    Welcome message
+
+    in a loop: 12 rundor
+        3. 
+        Input:
+        Input message
+        make sure its 4 numbers (not other characters)
+        remove spaces.
+        within range (1-6)
+
+        4. 
+        Middle part, if number is included in the number make it square
+        a for loop could work
+            if num in the combination
+                make it square
+            if in right positio
+                make the square into check
+
+            alternativt:
+                make checks first
+                check for squares
+
+            5. making the output layout
+            Output everytime theres an input
+            you want to output it prettey.
+
+    6. 
+    When game is finished:
+    ending message
+    if stay
+        while lop still true
+    if eexit
+        while loop ends
+
+        Goodbye message
+
+
+
