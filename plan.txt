@@ -22,6 +22,7 @@ all in a while loop
         make sure its 4 numbers (not other characters)
         remove spaces.
         within range (1-6)
+        Make it in a list format. [1, 2, 3, 4]
 
         4. 
         Middle part, if number is included in the number make it square
