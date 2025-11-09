@@ -4,19 +4,19 @@
 all in a while loop
 
 
-    1. DONE (refer to Hanna)
+    1. Done //Hanna
     Generate a four number combination:
     random 1-6 and include them too.
         One with no repeating
         one that can be repeating
 
-    2. Gustaf wip
+    2. Done //Gustaf 
     start:
     Welcome message
     mode
 
     in a loop: 12 rundor
-        3. 
+        3. wip //Kseniya
         Input:
         Input message
         make sure its 4 numbers (not other characters)
@@ -24,7 +24,7 @@ all in a while loop
         within range (1-6)
         Make it in a list format. [1, 2, 3, 4]
 
-        4. 
+        4. Basically done //Hanna
         Middle part, if number is included in the number make it square
         a for loop could work
             if num in the combination
@@ -36,7 +36,7 @@ all in a while loop
                 make checks first
                 check for squares
 
-            5. making the output layout
+            5. making the output layout //Gustaf
             Output everytime theres an input
             you want to output it prettey.
 
@@ -44,7 +44,7 @@ all in a while loop
     When game is finished:
     ending message
     if stay
-        while lop still true
+        while loop still true
     if exit
         while loop ends
 
