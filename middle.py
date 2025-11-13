@@ -24,8 +24,10 @@ def middle(pers, dator): #pers = persons guess, dator = correct answer.
     for i in range(4):
         #then look for all the other
         if temp_pers[i] in temp_dator: #this will onkly happen if they are not same position
+            match_index = temp_dator.index(temp_pers[i]) #find the index of this match
+
             answer[i] = 2 #2 = included but wrong position
-            temp_dator[i] = -1 #Same reason
+            temp_dator[match_index] = -1 #Same reason
             temp_pers[i] = -2
 
     answer.sort() #makes smallest first aka the checkmarks first
@@ -40,4 +42,4 @@ def middle(pers, dator): #pers = persons guess, dator = correct answer.
             #case 0: do nothing
     return output                
 
-print(middle([3, 3, 3, 3], [1, 3, 5, 6]))
+print(middle([4, 3, 2, 1], [1, 2, 3, 4]))
