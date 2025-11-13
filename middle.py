@@ -42,4 +42,4 @@ def middle(pers, dator): #pers = persons guess, dator = correct answer.
             #case 0: do nothing
     return output                
 
-print(middle([4, 3, 2, 1], [1, 2, 3, 4]))
+# print(middle([4, 3, 2, 1], [1, 2, 3, 4]))

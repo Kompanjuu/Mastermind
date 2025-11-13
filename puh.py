@@ -2,7 +2,7 @@
 
 
 def game_start ():
-    print("Hewo Pwincess UwU \n Du ska ange en gissning som följd av fyra siffror!")
+    print("Hewo Pwincess UwU \nDu ska ange en gissning som följd av fyra siffror!")
     
 
     while True: #contantly try to take an input until proper input is inputted.
@@ -48,7 +48,7 @@ def game_start ():
         break #if it psses all of our filters.
     return numb_lst
 
-print(game_start())
+# print(game_start())
         #Biten här påbörjar en For-loop.
         #Eftersom nummrerna spelaren skrev in räknas som en string, skriver man en kod för att omvandla stringen till integer.
         #Den checkar om nummrerna spelaren skrev in är nummer mellan och inklusive 1-6
