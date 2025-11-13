@@ -18,8 +18,10 @@ also solved the issue of making x and check when theres only meant to be a check
   1   |   6    3    4    2   | ✅✅
       |                      | Snyggt🔥
 -------------------------------------------
-Hewo Pwincess UwU
-Du ska ange en gissning som följd av fyra siffror!
-Ange fyra siffror mellan och inklusive 1-6: {user input}
+    |Hej Spelare!|
+
+*Du ska ange en gissning som följd av fyra siffror!
+
+*Ange fyra siffror mellan och inklusive 1-6: {user input}
 Runda |    Testade koder     | Feedback :)
 -------------------------------------------
