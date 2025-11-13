@@ -10,3 +10,16 @@ I found some bugs in middle beaccuse function can modify global variables and i 
 also solved the issue of making x and check when theres only meant to be a check.
 
 
+
+
+      |                      | Snyggt🔥
+  2   |   6    6    6    6   | ✅
+      |                      | Snyggt🔥
+  1   |   6    3    4    2   | ✅✅
+      |                      | Snyggt🔥
+-------------------------------------------
+Hewo Pwincess UwU
+Du ska ange en gissning som följd av fyra siffror!
+Ange fyra siffror mellan och inklusive 1-6: {user input}
+Runda |    Testade koder     | Feedback :)
+-------------------------------------------
