@@ -68,3 +68,18 @@ Feedback from playtesting:
 
 Advice: Make an input function with right and wrong checking.
 #useful_function
+
+
+Gustaf log:
+04.11.2025
+Skapade welcome.py med instruktioner och regler. Där väljer man också svårighetsgraden. Jag såg till att fixa så att den accepterar olika svar.
+
+06.11.2025
+Designade output.py som innehåller formattering av utskrifterna. Jag hade problem med bredden på emojis där t.ex. högerjustering inte fungerade då avståndet angivet inte följdes. Jag löste det genoom att inte ha något efter en emoji på en rad. Alla emojis är alltså i slutet i en line.
+
+18.11.2025
+Kort lektion. Jag la till kommentarer till welcome.py
+
+20.11.2025
+Gjorde ett alternativ i welcome.py för att se längre regler och kortade ner tidigare regler.
+Ändrade i kommentarer för output.py
