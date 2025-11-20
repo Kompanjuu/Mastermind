@@ -16,9 +16,11 @@ def single_int_input(): #when you jsut want a number: 1234, 1, 9000 not 0009
         except ValueError: #if it become value error then do this instead
             print("Please enter a string of numbers")
 
-print(single_int_input())
-
-def singe_include_string_input(requirement, message):
+def clean_string(user_input):
+    user_input = "".join(char for char in user_input if char != " "); user_input.lower()
+    return user_input
+    
+def single_include_string_input(requirement, message):
     #just enter with a list of the things you want the the string to be part of
     while True:
         user_input = input()
