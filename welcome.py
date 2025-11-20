@@ -51,7 +51,7 @@ def welcome():
             print(extra_rules)
         else: #om input inte matchar med något alternativ
             print("Fel inmatning, försök igen. Skriv lätt eller svår för att starta ett spel")
-welcome()
+
 
 
             
