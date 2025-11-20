@@ -24,7 +24,7 @@ beside each other.
 Improve next time:
 - Some messages have to be edited (We can make it more aesthetic)
 - in puh: I would prefer if it printed out all the issues at the end rather than only one comment directly and the breaking when it finds an issue
-- change name of files or function names.
+- change name of files or function names
 
 
       |                      | Snyggt🔥
@@ -40,3 +40,12 @@ Improve next time:
 *Ange fyra siffror mellan och inklusive 1-6: {user input}
 Runda |    Testade koder     | Feedback :)
 -------------------------------------------
+
+advice: kesniya: \t makes a tab
+
+Feedback from playtesting:
+- Too many rules I dont wanna read. #actual issue if we wanna make the game fun...
+- 
+
+Advice: Make an input function with right and wrong checking.
+#useful_function
