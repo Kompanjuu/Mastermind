@@ -50,7 +50,6 @@ def game_start ():
             continue
         break #if it psses all of our filters.
     return numb_lst
-print(game_start())
 # print(game_start())
         #Biten här påbörjar en For-loop.
         #Eftersom nummrerna spelaren skrev in räknas som en string, skriver man en kod för att omvandla stringen till integer.
