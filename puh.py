@@ -2,15 +2,18 @@
 
 
 def game_start ():
-    print("Hewo Pwincess UwU \nDu ska ange en gissning som följd av fyra siffror!")
-    
+    txt = "│Hej spelare!│🖑"
+    x= txt.center(65)
+    print(x)
+    print("\t ☆Du ska ange en gissning som följd av fyra siffror!")
+
 
     while True: #contantly try to take an input until proper input is inputted.
-        numb = input("Ange fyra siffror mellan och inklusive 1-6: ")
+        numb = input("\t ☆Ange fyra siffror mellan och inklusive 1-6: ")
         numb = numb.replace(" ","")
         #Denna biten printar först ut ett välkomst medelande som också get en kort förklaring av vad spelaren ska göra. Därefter defineras variabel "numb" och man får ange siffror.
         #Till sist byter den ut alla mellanslag som spelaren skrev in till inget.
-        
+
         #now we have a string with no spaces. Length? Number?
 
         numb_lst = []
@@ -47,7 +50,7 @@ def game_start ():
             continue
         break #if it psses all of our filters.
     return numb_lst
-
+print(game_start())
 # print(game_start())
         #Biten här påbörjar en For-loop.
         #Eftersom nummrerna spelaren skrev in räknas som en string, skriver man en kod för att omvandla stringen till integer.
