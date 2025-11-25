@@ -11,7 +11,7 @@ import random as rand
 
 def generate(mode): #returns the gerenated sequence as a list
     possible_numbers = [1, 2, 3, 4, 5, 6]
-    if mode == 1: #for easy mode TEMP
+    if mode == 1: #for easy mode
         combination = [] #i'll make this a list because the difficult is a list aswell easier to return
         
         for _ in range(4): #generate 4 numbers

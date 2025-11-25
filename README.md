@@ -9,8 +9,6 @@ Quick and easy, issues: git and reptitive numbers.
 I found some bugs in middle beaccuse function can modify global variables and i wasnt aware of that.
 also solved the issue of making x and check when theres only meant to be a check.
 
-
-
 13.11.2025
 Finished the game. now it is fucntional but not perfect.
 What has been fixed:
@@ -20,6 +18,23 @@ putting
 memory_numbers.append(user_input)
 memory_results.append(round_resuls)
 beside each other.
+
+
+2025.11.20 Hanna Log
+I made some useful functions that are good for general use today. Planning for the future. learnt about
+ *arg - list format
+ *kwarg  dicitonary
+order:
+    # regular parameters
+    # *args
+    # **kwargs
+for future general good functions.
+
+Changing puh to repeating_inputs because it repeats every time the user geusses
+claned messages in repeating_inpputs such as sending all the outputs at the end.
+made a message file to make the text filled files look cleaner.
+moved the welcoome messages over there too
+
 
 Kseniya log:
 6.11.2025
@@ -40,6 +55,31 @@ Should fix comments and the design of welcome message next time.
 20.11.2025
 Changed the design of welcome message and input message in puh file.
 
+
+Gustaf log:
+04.11.2025
+Skapade welcome.py med instruktioner och regler. Där väljer man också svårighetsgraden. Jag såg till att fixa så att den accepterar olika svar.
+
+06.11.2025
+Designade output.py som innehåller formattering av utskrifterna. Jag hade problem med bredden på emojis där t.ex. högerjustering inte fungerade då avståndet angivet inte följdes. Jag löste det genoom att inte ha något efter en emoji på en rad. Alla emojis är alltså i slutet i en line.
+
+18.11.2025
+Kort lektion. Jag la till kommentarer till welcome.py
+
+20.11.2025
+Gjorde ett alternativ i welcome.py för att se längre regler och kortade ner tidigare regler.
+Ändrade i kommentarer för output.py
+
+
+
+
+Stuff i wanna work on include making messages a totally different function perhaps ex in repeating_numbers
+To avoid 
+                         │Hej spelare!│🖑
+         ☆ Du ska ange en gissning som följd av fyra siffror!
+         ☆ Ange fyra siffror mellan och inklusive 1-6:
+repeating every time. It's fun the first time after that its like hmmm
+
 Improve next time:
 - Some messages have to be edited (We can make it more aesthetic)
 - in puh: I would prefer if it printed out all the issues at the end rather than only one comment directly and the breaking when it finds an issue
@@ -52,7 +92,7 @@ Improve next time:
   1   |   6    3    4    2   | ✅✅
       |                      | Snyggt🔥
 -------------------------------------------
-    |Hej Spelare!|
+            |Hej Spelare!|
 
 *Du ska ange en gissning som följd av fyra siffror!
 
@@ -69,17 +109,3 @@ Feedback from playtesting:
 Advice: Make an input function with right and wrong checking.
 #useful_function
 
-
-Gustaf log:
-04.11.2025
-Skapade welcome.py med instruktioner och regler. Där väljer man också svårighetsgraden. Jag såg till att fixa så att den accepterar olika svar.
-
-06.11.2025
-Designade output.py som innehåller formattering av utskrifterna. Jag hade problem med bredden på emojis där t.ex. högerjustering inte fungerade då avståndet angivet inte följdes. Jag löste det genoom att inte ha något efter en emoji på en rad. Alla emojis är alltså i slutet i en line.
-
-18.11.2025
-Kort lektion. Jag la till kommentarer till welcome.py
-
-20.11.2025
-Gjorde ett alternativ i welcome.py för att se längre regler och kortade ner tidigare regler.
-Ändrade i kommentarer för output.py
