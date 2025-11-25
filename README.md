@@ -1,5 +1,7 @@
 # Mastermind
 A mastermind game for a School Project
+Vi har fått uppgifen att skapa ett program som fungerar som spelet Mastermind.
+
 
 Hanna log:
 generate file: 04.11.2025
@@ -47,7 +49,8 @@ Begun writing functions for checking lenght of input.
 Added code for checking lenght of input from player in puh file.
 
 13.11.2025
-Fixed bugs in puh file with some help from Hanna.
+Fixed bugs in puh file with some help from Hanna. For example:
+One problem the program has is that it would for some reason not accept some specific numbers when it accepted those numbers before.
 Added while-loops. Wrote in better code for checking the amount of numbers the player inputted.
 Added code for checking and making sure the player only wrote in integers and not variabels.
 Should fix comments and the design of welcome message next time.
@@ -74,7 +77,7 @@ Gjorde ett alternativ i welcome.py för att se längre regler och kortade ner ti
 
 
 Stuff i wanna work on include making messages a totally different function perhaps ex in repeating_numbers
-To avoid 
+To avoid
                          │Hej spelare!│🖑
          ☆ Du ska ange en gissning som följd av fyra siffror!
          ☆ Ange fyra siffror mellan och inklusive 1-6:
