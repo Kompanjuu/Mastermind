@@ -1,12 +1,13 @@
 
 import messages
-
-def game_start ():
+def first_game_start_msg():
     txt = "│Hej spelare!│🖑"
 
     print("\n", txt.center(65), sep = "")
     print("\t ☆ Du ska ange en gissning som följd av fyra siffror!")
 
+
+def game_start ():
 
     while True: #contantly try to take an input until proper input is inputted.
         error_message = []

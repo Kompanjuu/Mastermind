@@ -61,8 +61,9 @@ def single_include_string_input(requirement, message):
 import time
 def sleep_write(word):
     for i in word:
-        print(i, end="", flush = True)
+        print(i, flush = True, end="")
         time.sleep(0.03)
+    print("")
 
 # 
 # # time.sleep(seconds)

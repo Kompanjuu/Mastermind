@@ -15,6 +15,8 @@ while True: #game will run unless said otherwise
     
     memory_numbers = []
     memory_results = []
+    repeating_input.first_game_start_msg()
+    
     for round in range(12):
         #print(combination_goal)
         
