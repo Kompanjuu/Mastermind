@@ -24,7 +24,7 @@ while True: #game will run unless said otherwise
 
 
         #this will return a list of the checkmarks like ['✅', '✅', '✅']
-        print("user_input:", user_input); print("combination_goal:", combination_goal)
+        #print("user_input:", user_input); print("combination_goal:", combination_goal)
         #GET RID OF THIS LATER
 
         #output() wants the check in the form of ['✅✅✅', ''] so i'm joining my round_result
@@ -45,10 +45,10 @@ while True: #game will run unless said otherwise
         print(messages.fail_message, combination_goal)
 
     #make an exit ticket
-    print("Do you wanna keep on playing? Yes/No")
+    print("Vill du fortsätta spela? Ja/Nej")
     answer = input()
     answer = useful_functions.clean_string(answer)
-    if answer != "yes":
+    if answer != "ja":
         break
     
 print(messages.goodbye_message)

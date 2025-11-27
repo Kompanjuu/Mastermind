@@ -19,7 +19,16 @@ def single_int_input(): #when you jsut want a number: 1234, 1, 9000 not 0009
 def clean_string(user_input):
     user_input = "".join(char for char in user_input if char != " "); user_input.lower()
     return user_input
-    
+
+
+#go trhough the string and if the word is in the long rando string then it works
+#like virus question
+#for i in word (word = "hugjdkslaujigkdsmbhgsioalchfdjkslfd")
+#abcd is it in.
+#lghsidjkhgdsjkähjgjdskhgsjkdtjgidoslkngldst
+#hgsjdkghnjeskbgdlättbidhkghdsjihgsnd       ___..--
+ 
+
 def single_include_string_input(requirement, message):
     #just enter with a list of the things you want the the string to be part of
     while True:
@@ -48,3 +57,18 @@ def single_include_string_input(requirement, message):
 #     print(restrictions)
 #     print(mode)
 #safe_input(3, Exclude = True) #true means the thing has to be included
+
+import time
+def sleep_write(word):
+    for i in word:
+        print(i, end="", flush = True)
+        time.sleep(0.03)
+
+# 
+# # time.sleep(seconds)
+# import messages
+# word = messages.welcome_introduction
+# for i in word:
+#     print(i, end="", flush = True)
+#     time.sleep(0.03)
+
