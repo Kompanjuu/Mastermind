@@ -15,7 +15,7 @@ Lätt: Det förekommer inte några dubbletter.
 Svår: Det kan förekomma dubbletta siffror
 Exempel: JAG VILL HA BÄTTRE FÖRKLARADE REGLER"""
 
-welcome_extra_rules = """-----------------------------------------------------------
+welcome_extra_rules = """---------------------------------------------
 Här kommer en längre förklaring av reglerna
 Målet är att knäcka en fyrsiffrig kod innan 12 rundor är slut. Koden består av siffrorna 1-6.
 Om du spelar på svårighetsgraden lätt så kan en siffra bara vara med 1 gång men på svår så kan den vara med flera gånger.
