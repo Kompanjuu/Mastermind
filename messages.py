@@ -6,6 +6,8 @@
 welcome_introduction ="""Välkommen till Mastermind!
 Ett projekt av Hanna, Kseniya & Gustaf.
 
+tryck på enter för att snabba upp
+
 I Mastermind har du 12 omgångar att gissa en 4-siffrig kombination av siffrorna 1-6.
 Du får feedback på hur många siffror som var på rätt plats med ✅ och på fel plats med ❎.
 Till exempel om rätt kombination är 6253 och du gissar 1234 kommer du få svaret ✅❎.

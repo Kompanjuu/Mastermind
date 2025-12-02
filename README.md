@@ -75,8 +75,13 @@ Kort lektion. Jag la till kommentarer till welcome.py
 Gjorde ett alternativ i welcome.py för att se längre regler och kortade ner tidigare regler.
 Ändrade i kommentarer för output.py
 
+27.11.2025
+Implementerade Hannas funktion för att skriva ut tecknen i välkomsmeddelanden långsamt.
+Todo: Det tar lång tid att skriva ut allt och vi orkar inte alltid vänta -> Skapa ett sätt att snabba upp texten
 
-
+2.12.2025
+Gjorde research om threading och skapade en trådning i Hannas sleep_write() som läser användarens input och skippar texten om denne skriver något.
+Fixade lite kommentarer
 
 Stuff i wanna work on include making messages a totally different function perhaps ex in repeating_numbers
 To avoid

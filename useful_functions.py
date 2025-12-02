@@ -64,20 +64,19 @@ import time
 def listen_for_enter():
     global sleep_write_stopped
     while True:
-        char = sys.stdin.read(1)
-        #if char == " ":
-        sleep_write_stopped = True
+        sys.stdin.read(1) #Looks for user input
+        sleep_write_stopped = True #returns that user input has been read
         break
 
 def sleep_write(word):
     global sleep_write_stopped
     sleep_write_stopped = False
-    listener = threading.Thread(target=listen_for_enter, daemon=True)
-    listener.start()
+    listener = threading.Thread(target=listen_for_enter, daemon=True) #Points a thread to a function that waits for user input
+    listener.start() #Starts the thread
     for i in word:
-        print(i, flush = True, end="")
-        if not sleep_write_stopped:
-            time.sleep(0.03)
+        print(i, flush = True, end="") #Prints each letter in the string individually
+        if not sleep_write_stopped: #If the thread has recieved input: skips the following delay
+            time.sleep(0.03) #Creates a delay between each character
     print("")
 
 # 
