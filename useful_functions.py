@@ -58,11 +58,26 @@ def single_include_string_input(requirement, message):
 #     print(mode)
 #safe_input(3, Exclude = True) #true means the thing has to be included
 
+import sys
+import threading
 import time
+def listen_for_enter():
+    global sleep_write_stopped
+    while True:
+        char = sys.stdin.read(1)
+        #if char == " ":
+        sleep_write_stopped = True
+        break
+
 def sleep_write(word):
+    global sleep_write_stopped
+    sleep_write_stopped = False
+    listener = threading.Thread(target=listen_for_enter, daemon=True)
+    listener.start()
     for i in word:
         print(i, flush = True, end="")
-        time.sleep(0.03)
+        if not sleep_write_stopped:
+            time.sleep(0.03)
     print("")
 
 # 
