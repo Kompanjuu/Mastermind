@@ -15,7 +15,7 @@ Lätt: Det förekommer inte några dubbletter.
 Svår: Det kan förekomma dubbletta siffror
 Exempel: JAG VILL HA BÄTTRE FÖRKLARADE REGLER"""
 
-welcome_extra_rules = """---------------------------------------------
+welcome_extra_rules = """-----------------------------------------------------------
 Här kommer en längre förklaring av reglerna
 Målet är att knäcka en fyrsiffrig kod innan 12 rundor är slut. Koden består av siffrorna 1-6.
 Om du spelar på svårighetsgraden lätt så kan en siffra bara vara med 1 gång men på svår så kan den vara med flera gånger.
@@ -47,21 +47,17 @@ Exempel: JAG VILL HA BÄTTRE FÖRKLARADE REGLER"""
 
 
 #For puh
-length_not_four = "Four numbers, no more no less"
-not_integers = "Numbers, not any other character"
-int_not_within_range = "The numbers should be between and including 1 to 6"
+length_not_four = "Ange fyra nummer, varken mer eller mindre"
+not_integers = "Skriv nummer, inga andra karaktärer"
+int_not_within_range = "Nummrerna ska vara mellan och inkludera 1 - 6"
 
 #for main
-winning_message = """Congratulations you have won!
-wow
-encouragement"""
+winning_message = """Grattis, du vann!
+🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉"""
+
 fail_message = "Dun dun better luck next time the combination was:"
 goodbye_message = """Credits:
-are you..
-.
-.
-.
-.
+are you.
 .
 .
 real?"""
