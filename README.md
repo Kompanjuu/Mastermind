@@ -21,8 +21,7 @@ memory_numbers.append(user_input)
 memory_results.append(round_resuls)
 beside each other.
 
-
-2025.11.20 Hanna Log
+2025.11.20
 I made some useful functions that are good for general use today. Planning for the future. learnt about
  *arg - list format
  *kwarg  dicitonary
@@ -32,10 +31,13 @@ order:
     # **kwargs
 for future general good functions.
 
-Changing puh to repeating_inputs because it repeats every time the user geusses
-claned messages in repeating_inpputs such as sending all the outputs at the end.
-made a message file to make the text filled files look cleaner.
+Changing puh to repeating_inputs, reason for name: because it repeats every time the user geusses
+combined messages in repeating_inpputs such as sending all the outputs at the end.
+made a message file (messages.py) to make the text filled files look cleaner.
 moved the welcoome messages over there too
+
+2025.12.02
+Changed middle name to scanner beacuse the file snacs for correct and wrong positions
 
 
 Kseniya log:

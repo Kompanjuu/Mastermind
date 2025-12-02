@@ -56,8 +56,4 @@ winning_message = """Grattis, du vann!
 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉"""
 
 fail_message = "Dun dun better luck next time the combination was:"
-goodbye_message = """Credits:
-are you.
-.
-.
-real?"""
+goodbye_message = """Hope to see you in the future :)"""

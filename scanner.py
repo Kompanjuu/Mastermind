@@ -6,13 +6,9 @@
 def middle(pers, dator): #pers = persons guess, dator = correct answer.
     answer = [0, 0, 0, 0] #2 = just in it, 1 = right spot?, 0 = nothing
     
-    temp_pers = [] #make a copy
-    for i in pers:
-        temp_pers.append(i)
-    temp_dator = []
-    for i in dator:
-        temp_dator.append(i)
-    
+    temp_pers = pers[:] #make a copy, slice notation
+    temp_dator = dator[:] # slice notation again, shallow copy.
+
     for i in range(4):
         #first for look through for all the matches
         if temp_pers[i] == temp_dator[i]: #same position.
@@ -20,7 +16,7 @@ def middle(pers, dator): #pers = persons guess, dator = correct answer.
             temp_dator[i] = -1 #this number can't be counted twice now, temp_dator.remove(temp_dator[i]) is slower.
             temp_pers[i] = -2 
             #this number isnt the same as temp_dator because we dont want them to match up -1
-            #this is also why i made a temp_pers
+            #Why copy the lists -> so og doesn't change when i change the elments to -2 or -1
     for i in range(4):
         #then look for all the other
         if temp_pers[i] in temp_dator: #this will onkly happen if they are not same position
