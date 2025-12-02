@@ -1,6 +1,6 @@
 import welcome
 import generate
-import middle
+import scanner
 import output
 import repeating_input
 import messages
@@ -22,7 +22,7 @@ while True: #game will run unless said otherwise
         
         user_input = repeating_input.game_start()
 
-        round_result = middle.middle(user_input, combination_goal) 
+        round_result = scanner.middle(user_input, combination_goal) 
 
 
         #this will return a list of the checkmarks like ['✅', '✅', '✅']
