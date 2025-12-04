@@ -147,3 +147,6 @@ Todo: Det tar lång tid att skriva ut allt och vi orkar inte alltid vänta -> Sk
 2.12.2025\
 Gjorde research om threading och skapade en trådning i Hannas sleep_write() som läser användarens input och skippar texten om denne skriver något.\
 Fixade lite kommentarer
+
+04.12.2025\
+Skrev i README och fixade lite buggar. En bugg som ej är löst är att man måste trycka enter 2ggr om man ej skippar texten.
