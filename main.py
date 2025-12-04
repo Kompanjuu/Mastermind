@@ -50,7 +50,7 @@ while True: #game will run unless said otherwise
     print("Vill du fortsätta spela? Ja (1), Nej (2)")
     answer = input()
     answer = useful_functions.clean_string(answer)
-    if answer != "ja" or answer == "1":
+    if answer != "ja" or answer != "1":
         break
     
 print(messages.goodbye_message)
