@@ -1,8 +1,11 @@
 # Mastermind
-A mastermind game for a School Project
-Vi har fått uppgifen att skapa ett program som fungerar som spelet Mastermind.
+For a School Project
+Mastermind är ett spel som liknar det populära spelet Wordle. Man ska gissa en kombination av fyra siffror mellan 1 och 6. Sedan så får man feedback på om man hade rätt eller inte med sina siffror. Till skillnad från Wordle så får man inte reda på vilken eller vilka siffror som var rätt. Du måste alltså både hitta vilken siffra som är rätt och sedan lista ut vilken av siffrorna du skrev var på rätt plats.
 
+# How to run
+Make a clone of the repository. Start the program by running main.py with python3
 
+# Logs
 Hanna log:
 generate file: 04.11.2025
 Quick and easy, issues: git and reptitive numbers.
@@ -82,40 +85,3 @@ Todo: Det tar lång tid att skriva ut allt och vi orkar inte alltid vänta -> Sk
 2.12.2025
 Gjorde research om threading och skapade en trådning i Hannas sleep_write() som läser användarens input och skippar texten om denne skriver något.
 Fixade lite kommentarer
-
-Stuff i wanna work on include making messages a totally different function perhaps ex in repeating_numbers
-To avoid
-                         │Hej spelare!│🖑
-         ☆ Du ska ange en gissning som följd av fyra siffror!
-         ☆ Ange fyra siffror mellan och inklusive 1-6:
-repeating every time. It's fun the first time after that its like hmmm
-
-Improve next time:
-- Some messages have to be edited (We can make it more aesthetic)
-- in puh: I would prefer if it printed out all the issues at the end rather than only one comment directly and the breaking when it finds an issue
-- change name of files or function names
-
-
-      |                      | Snyggt🔥
-  2   |   6    6    6    6   | ✅
-      |                      | Snyggt🔥
-  1   |   6    3    4    2   | ✅✅
-      |                      | Snyggt🔥
--------------------------------------------
-            |Hej Spelare!|
-
-*Du ska ange en gissning som följd av fyra siffror!
-
-*Ange fyra siffror mellan och inklusive 1-6: {user input}
-Runda |    Testade koder     | Feedback :)
--------------------------------------------
-
-advice: kesniya: \t makes a tab
-
-Feedback from playtesting:
-- Too many rules I dont wanna read. #actual issue if we wanna make the game fun...
--
-
-Advice: Make an input function with right and wrong checking.
-#useful_function
-
